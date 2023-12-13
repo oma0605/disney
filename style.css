@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1450px;
+    
+    
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+
+}
+.header input{
+    padding: 20px 100px;
+    border-radius: 10px;
+    border: none;
+    background: aqua;
+}
+.header button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    background: blue;
+    color: white;
+    font-size: 20px ;
+}
+.cards{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.card{
+    background: wheat;
+    padding: 20px 20px;
+    border-radius: 20px;
+    ;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+    
+}
+
+.pagination button{
+    padding: 20px 30px;
+    background: yellow;
+    
+
+}
